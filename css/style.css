@@ -32,3 +32,20 @@ main {
 footer {
     grid-area: footer;
 }
+
+.container{
+   display: flex;
+   flex-wrap: wrap;
+  
+}
+
+.picture1, .picture2, .picture3, .picture4, .picture5, .picture6{
+
+    height: 400px;
+    width: 400px;
+   
+}
+.container img {
+    height: 100%;
+    width: 100%;
+}
